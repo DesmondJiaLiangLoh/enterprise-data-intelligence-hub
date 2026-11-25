@@ -18,8 +18,6 @@ This is a generalized reconstruction, not an internal deployment diagram.
 - **Cloud integration:** Integrated GCP metadata discovery and OAuth components.
 - **Execution management:** Implemented status, logs, termination and artifact access.
 
-Contribution statements are based on supplied code and résumé; confirm individual versus team ownership before publication.
-
 ## Implementation boundaries
 
 POC, not a production multi-user service. Authentication, CSRF protection, rate limits, concurrency isolation and upload controls require further work. Live-system accuracy, complete lineage and enterprise deployment are not independently verified.
@@ -32,7 +30,7 @@ POC, not a production multi-user service. Authentication, CSRF protection, rate 
 - [Showcase slides](docs/showcase.pptx)
 - [Interactive illustrative walkthrough](https://desmondjialiangloh.github.io/enterprise-data-intelligence-hub.html)
 
-Original employer code, data and credentials are excluded.
+Original enterprise implementation excluded from this reference edition.
 
 ## Executable reference demonstration
 
