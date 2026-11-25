@@ -33,6 +33,6 @@ POC, not a production multi-user service. Authentication, CSRF protection, rate 
 
 Original employer code, data and credentials are excluded.
 
-## V3 executable reference demonstration
+## Executable reference demonstration
 
 Run `python demo/hub.py` and `python -m unittest discover -s demo -v` from the repository root. [Source](demo/hub.py) · [Generated results](demo/results.json). This newly authored synthetic reference is distinct from the original enterprise implementation; it does not establish historical production performance.
