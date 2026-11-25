@@ -1,0 +1,76 @@
+{
+  "scope": "Fictional catalog and simplified XML schema; not Tableau API execution",
+  "WF1": [
+    {
+      "name": "Retail performance",
+      "tags": "sales revenue store retail dashboard",
+      "views": 140,
+      "score": 2
+    },
+    {
+      "name": "Product profitability",
+      "tags": "margin cost product profit sales",
+      "views": 95,
+      "score": 1
+    }
+  ],
+  "WF2": [
+    {
+      "name": "Product profitability",
+      "tags": "margin cost product profit sales",
+      "views": 95,
+      "score": 2
+    }
+  ],
+  "WF3": {
+    "nodes": [
+      {
+        "id": "sales",
+        "type": "table",
+        "label": "Sales"
+      },
+      {
+        "id": "revenue",
+        "type": "field",
+        "label": "Revenue"
+      },
+      {
+        "id": "cost",
+        "type": "field",
+        "label": "Cost"
+      },
+      {
+        "id": "profit",
+        "type": "calculation",
+        "label": "Revenue minus cost"
+      },
+      {
+        "id": "report",
+        "type": "dashboard",
+        "label": "Retail performance"
+      }
+    ],
+    "edges": [
+      {
+        "source": "sales",
+        "target": "revenue"
+      },
+      {
+        "source": "sales",
+        "target": "cost"
+      },
+      {
+        "source": "revenue",
+        "target": "profit"
+      },
+      {
+        "source": "cost",
+        "target": "profit"
+      },
+      {
+        "source": "profit",
+        "target": "report"
+      }
+    ]
+  }
+}
