@@ -1,4 +1,5 @@
 # Enterprise Data Intelligence Hub
+[![Demo checks](https://github.com/DesmondJiaLiangLoh/enterprise-data-intelligence-hub/actions/workflows/demo.yml/badge.svg)](https://github.com/DesmondJiaLiangLoh/enterprise-data-intelligence-hub/actions/workflows/demo.yml)
 
 **Proof of concept in development** · Publication clearance required
 
