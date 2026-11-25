@@ -1,1 +1,0 @@
-<workbook><table id="sales" name="Sales"/><field id="revenue" name="Revenue" depends="sales"/><field id="cost" name="Cost" depends="sales"/><calculation id="profit" name="Revenue minus cost" depends="revenue cost"/><dashboard id="report" name="Retail performance" depends="profit"/></workbook>
