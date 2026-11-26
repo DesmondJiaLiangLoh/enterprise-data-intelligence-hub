@@ -1,0 +1,3 @@
+datasource,server,database,schema
+Retail Mart,demo.bigquery.example,demo,analytics
+Inventory Mart,demo.bigquery.example,demo,analytics

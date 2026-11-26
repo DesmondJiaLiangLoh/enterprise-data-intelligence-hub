@@ -1,0 +1,11 @@
+datasource,name,caption
+Retail Mart,Revenue,Revenue
+Retail Mart,Cost,Cost
+Retail Mart,Margin,Margin
+Retail Mart,Store,Store
+Retail Mart,Category,Category
+Retail Mart,Date,Date
+Inventory Mart,Stock,Stock
+Inventory Mart,Demand,Demand
+Inventory Mart,Coverage,Coverage
+Inventory Mart,Product,Product

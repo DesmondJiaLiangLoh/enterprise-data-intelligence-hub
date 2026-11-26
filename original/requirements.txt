@@ -1,0 +1,15 @@
+Flask>=3.0,<4
+requests
+pandas
+lxml
+openpyxl
+rapidfuzz
+python-docx
+beautifulsoup4
+nbformat
+
+ipython>=8.0
+
+google-cloud-bigquery>=3.0
+google-cloud-resource-manager>=1.0
+google-auth-oauthlib>=1.2
